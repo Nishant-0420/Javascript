@@ -5,19 +5,19 @@ console.log(a)
 console.log()
 
 
-// let n=prompt('your score is:')
-// if(n>=90 && n<=100){
-//     alert('A Grade') 
-// }else if(n>=70 && n<90){
-//     alert('B Grade')
-// }else if(n>=60 && n<70){
-//     alert('C Grade')
-// }else if(n>=50 && n<60){
-//     alert('D Grade')
-// }
-// else{
-//     alert('F Grade')
-// }
+let n=prompt('your score is:')
+if(n>=90 && n<=100){
+    alert('A Grade') 
+}else if(n>=70 && n<90){
+    alert('B Grade')
+}else if(n>=60 && n<70){
+    alert('C Grade')
+}else if(n>=50 && n<60){
+    alert('D Grade')
+}
+else{
+    alert('F Grade')
+}
 
 
 //for loop
@@ -25,17 +25,17 @@ for(let i=1;i<=5;++i){
     console.log("weed")
 }
 console.log()
-// let n=prompt('Enter a number to get sum from 1 to n:')
-// let sum=0
-// for(let i=1;i<=n;++i){
-//     sum=sum+i
-// }
-// console.log(sum)
+let n=prompt('Enter a number to get sum from 1 to n:')
+let sum=0
+for(let i=1;i<=n;++i){
+    sum=sum+i
+}
+console.log(sum)
 
-//infinite loop
-// for(let i=1;i>0;i++){
-//     console.log("weed")
-// }
+infinite loop
+for(let i=1;i>0;i++){
+    console.log("weed")
+}
 
 //while loop
 let i=1
@@ -51,7 +51,33 @@ do{
     console.log('weed')
     j++}while(j<=5)
 
+//for of loop
+let arr=[1,2,3,4,5]
+let n='weed'
+for(let i of arr){
+    if(i%2==0){
+        console.log(i)
+    }
+}
+console.log()
+console.log(n.length)
+let l=0
+for(let i of n){
+    l=l+1
+    console.log(i)
+}
+console.log(l)
+console.log()
 
+//for in loop
+let student={
+    name:'weed',
+    age:420,
+    isPass:true
+}
+for(let i in student){
+    console.log(i,student.i)
+}
 
 
 
