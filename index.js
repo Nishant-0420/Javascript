@@ -95,6 +95,7 @@ for(let i=1;i<=100;i+=2){
 // guess the game number 
 let gameNumber='69' 
 // if gameNumber =69 then use == and != as prompt converts the value to string
+
 let guess=prompt('Enter ur guess number between 1-100:')
 if(gameNumber===guess){
     alert('Congratulations! You have guessed the number')}
@@ -105,6 +106,16 @@ while(gameNumber!==guess){
     guess=prompt('Enter ur guess number between 1-100:')
 }
 alert('Congratulations! You have guessed the number')
+
+// string questions 
+// prompt user full name and generate username with star @ and then full name and last with fullname length
+let fullName=prompt('Enter your full name:')
+let userName=(`@${fullName}${fullName.length}`)
+console.log(userName)
+let naam='@'+fullName.replace(/\s+/g, '')+fullName.length
+alert(naam)
+
+
     
 
 
