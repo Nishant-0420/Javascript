@@ -96,24 +96,37 @@ for(let i=1;i<=100;i+=2){
 let gameNumber='69' 
 // if gameNumber =69 then use == and != as prompt converts the value to string
 
-let guess=prompt('Enter ur guess number between 1-100:')
-if(gameNumber===guess){
-    alert('Congratulations! You have guessed the number')}
-    else{
-        alert('Try again!!!!!')}
-// use while loop kyuki datatype ki dikat nhi aega
-while(gameNumber!==guess){
-    guess=prompt('Enter ur guess number between 1-100:')
-}
-alert('Congratulations! You have guessed the number')
+// let guess=prompt('Enter ur guess number between 1-100:')
+// if(gameNumber===guess){
+//     alert('Congratulations! You have guessed the number')}
+//     else{
+//         alert('Try again!!!!!')}
+// // use while loop kyuki datatype ki dikat nhi aega
+// while(gameNumber!==guess){
+//     guess=prompt('Enter ur guess number between 1-100:')
+// }
+// alert('Congratulations! You have guessed the number')
 
 // string questions 
 // prompt user full name and generate username with star @ and then full name and last with fullname length
-let fullName=prompt('Enter your full name:')
-let userName=(`@${fullName}${fullName.length}`)
-console.log(userName)
-let naam='@'+fullName.replace(/\s+/g, '')+fullName.length
-alert(naam)
+
+// let fullName=prompt('Enter your full name:')
+// let userName=(`@${fullName}${fullName.length}`)
+// console.log(userName)
+// let naam='@'+fullName.replace(/\s+/g, '')+fullName.length
+// alert(naam)
+
+// more string questions
+let is_string = function(input) {
+    if (typeof(input) == "string" ){
+        console.log('true')
+    }
+      
+    else{ 
+        return false}
+       
+  }
+console.log(is_string(69))
 
 
     
