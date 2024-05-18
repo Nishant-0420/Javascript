@@ -128,6 +128,13 @@ let is_string = function(input) {
   }
 console.log(is_string(69))
 
+// array
+let arr1=[12,45,65,34]
+for(let b of arr1){
+    console.log(b)
+}
+
+
 
     
 
