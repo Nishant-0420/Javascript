@@ -127,11 +127,15 @@ let is_string = function(input) {
        
   }
 console.log(is_string(69))
+console.log()
 
 // array
 let arr1=[12,45,65,34]
 for(let b of arr1){
     console.log(b)
+}
+for(let i =0;i<arr1.length;i++){
+    console.log(arr1[i])
 }
 
 
