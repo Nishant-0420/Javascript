@@ -137,8 +137,39 @@ for(let b of arr1){
 for(let i =0;i<arr1.length;i++){
     console.log(arr1[i])
 }
+let sum1=0
+let arr2=[85,97,44,37,76,60]
+for(let b of arr2){
+    sum1=sum1+b
+}
+console.log()
+console.log('average = '+sum1/arr2.length)
 
+let arr3=[250,645,300,900,50]
+// let arr4=[]
+// for(let b of arr3){
+//     arr4.push(b-(b*0.1))
+// }
+// console.log(arr4)
+for(let i=0;i<arr3.length;i++){
+    arr3[i]=arr3[i]-arr3[i]*0.1
+}
+console.log(arr3)
 
+let arr5=[1,2,3,4,5,6,7,8,9,10]
+arr5.splice(3,2,40,50)
+console.log(arr5)
+arr5.splice(3,0,4,5)
+console.log(arr5)
+console.log()
+
+let companies=['bloomberg','microsoft','uber','google','ibm','netflix']
+companies.shift()
+console.log(companies)
+companies.splice(2,1,'ola')
+console.log(companies)
+companies.push('amazon')
+console.log(companies)
 
     
 
