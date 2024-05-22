@@ -171,7 +171,50 @@ console.log(companies)
 companies.push('amazon')
 console.log(companies)
 
-    
 
+
+// functions 
+function summ(a,b){
+    console.log('sum is:')
+    return a+b;
+}
+summ(5,6)   
+console.log(summ(5,6))
+
+// arrow function
+const summ2=(a,b)=>{
+    return a+b;
+}
+console.log(summ2(69,69))
+console.log()
+
+//create function with function keyword that tkes a string and returns no. of vowels in it
+let c1=0
+function vowel(a){
+    for(let i of a){
+        if(i=='a'||i=='e'||i=='i'||i=='o'||i=='u'||i=='A'||i=='E'||i=='I'||i=='O'||i=='U'){
+            c1=c1+1
+        }     
+    }
+    return c1
+}
+console.log(vowel('weed'))
+// do the same with arrow function
+c1=0
+const arrowVowel=(a)=>{
+    for(let i of a){
+        if(i=='a'||i=='e'||i=='i'||i=='o'||i=='u'||i=='A'||i=='E'||i=='I'||i=='O'||i=='U'){
+            c1=c1+1
+        }     
+    }
+    return c1
+}
+ console.log(arrowVowel('wEEeed'))
+console.log()
+// print square of each element of array using forEach
+ let arr6=[1,2,3,4,5,6,7,8,9,10]
+ arr6.forEach((a)=>{
+    console.log(a**2)
+ })
 
 
