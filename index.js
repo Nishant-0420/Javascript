@@ -214,7 +214,22 @@ console.log()
 // print square of each element of array using forEach
  let arr6=[1,2,3,4,5,6,7,8,9,10]
  arr6.forEach((a)=>{
-    console.log(a**2)
+    a**2
  })
+ console.log(arr6)  //see original string is not changed and also new string is not created
+
+//  important array methods
+//map
+let arr7=[1,2,3,4,5,6,7,8,9,10]
+let maparr=arr7.map((a)=>{
+    return a**2
+})
+
+//filter
+console.log(maparr)
+let filterarr=arr7.filter((a)=>{
+    if(a%2==0){ return a}
+})
+console.log(filterarr)
 
 
