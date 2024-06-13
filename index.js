@@ -233,3 +233,35 @@ let filterarr=arr7.filter((a)=>{
 console.log(filterarr)
 
 
+//practice question using array methods
+
+// filter out 90+ marks from array
+let marks=[12,45,65,98,100,45,78,98,100]
+let nintyplus=marks.filter((a)=>{
+    return a>90
+})
+console.log("90+ marks")
+console.log(nintyplus)
+
+n=9
+let arr8=[]
+for(let i=1;i<=n;i++){
+    arr8.push(i)
+}
+console.log("arr from 1 to n")
+console.log(arr8)
+// console.log(arr8[4]);
+//  calculating sum of array using reduce
+let sum8=arr8.reduce((pre,curr)=>{
+    return pre+curr
+})
+console.log("sum of array")
+console.log(sum8)
+
+//finding factorial in array using reduce
+let f=arr8.reduce((pre,cur)=>{
+    return pre*cur
+})
+console.log("factorial of array8")
+console.log(f)
+
