@@ -265,3 +265,41 @@ let f=arr8.reduce((pre,cur)=>{
 console.log("factorial of array8")
 console.log(f)
 
+let str1='weed'
+let str2=""
+for (let i of str1){
+    if(i=='a' || i=='e' || i=='i' || i=='o' || i=='u'){
+        str2=str2+i
+    }
+}
+console.log("vowels in string")
+console.log(str2)
+console.log(str1)
+
+let arr9=[1,2,3,4,5,6,7,8,9,10]
+let index=0
+for(let i of arr9){
+    if(i%2==0){
+        arr9[index]=0
+    }
+    else{
+        arr9[index]=1
+    }
+    index++
+}
+console.log("even=0 and odd=1")
+console.log(arr9)
+console.log(arr9.join(""))
+let arrtostr=arr9.toString()
+console.log(arrtostr)
+
+let h2= document.querySelector("h2")
+console.log(h2.innerText)
+h2.innerText=h2.innerText+" from apna college student"
+console.log(h2.innerText)
+
+let divs=document.querySelectorAll(".box")
+console.log(divs)
+divs[0]=divs[0].innerText="weed"
+divs[1].innerText="hash"
+
